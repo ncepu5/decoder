@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/data1/geng.wu/anaconda3/envs/test1/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": false
+}
