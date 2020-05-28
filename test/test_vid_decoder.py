@@ -11,7 +11,7 @@ def run():
         'vid_type': 'Jingyang', # Dahua / Jingyang
         'usr': 'admin',
         'pwd': 'admin',
-        'ip': '192.168.1.204',
+        'ip': '192.168.1.2',
         'channel': 1
     }
     # Start to decode
