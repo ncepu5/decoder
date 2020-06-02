@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/data1/geng.wu/anaconda3/envs/test1/bin/python",
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\myPython37\\python.exe",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": false

@@ -21,6 +21,7 @@ class VidDecoder(object):
         # Set the rstp path for different cameras.
         if  vid_type == 'Hikvision':
             # Now only for the new version.
+            # rtsp://admin:12345@172.18.33.29:554/h264/ch1/main/av_stream
             vid_stream_path = \
                 "rtsp://%s:%s@%s//Streaming/Channels/%d" % (usr, pwd, ip, channel)
         elif vid_type == 'Dahua':
@@ -29,6 +30,10 @@ class VidDecoder(object):
         elif vid_type == 'Jingyang':
             vid_stream_path = \
                 "rtsp://%s:%s@%s:554/snl/live/%d/1" % (usr, pwd, ip, channel) # sunell
+        elif vid_type == 'Tiandy':
+            # "rtsp://admin:1111@172.18.33.29/1/1"
+            vid_stream_path = \
+                "rtsp://%s:%s@%s/%d/1" % (usr, pwd, ip, channel)
         elif vid_type == 0:
             # Load local usb camera.
             vid_stream_path = 0

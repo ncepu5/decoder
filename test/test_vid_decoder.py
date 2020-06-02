@@ -8,10 +8,10 @@ from vid_decoder_py.vid_decoder import VidDecoder
 def run():
     # Initialize the decoder.
     camera_info = {
-        'vid_type': 'Jingyang', # Dahua / Jingyang
-        'usr': 'admin',
-        'pwd': 'admin',
-        'ip': '192.168.1.2',
+        'vid_type': 'Tiandy', # Dahua / Jingyang / Hikvision / Tiandy
+        'usr': 'Admin',
+        'pwd': '1111',
+        'ip': '172.18.33.29',
         'channel': 1
     }
     # Start to decode
